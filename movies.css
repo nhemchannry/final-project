@@ -1,0 +1,78 @@
+.header{
+    background-image: url(/img/peopleinbus.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+
+}
+h1{
+    font-size:65px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    color:darkgoldenrod;
+    stroke: darkred;
+}
+.cards{
+    margin: 0 auto;
+    max-width: 2000px;
+    display: grid;
+    grid-template-columns: repeat(5, 6fr);
+    gap: 10px;
+    font-family: sans-serif;
+    padding-top: 10px;
+
+    
+
+}
+.card{
+    box-shadow: 1 1 3px rgba(red, green, blue, alpha);
+    width: 60%;
+}
+.card_font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: darkorchid;
+    width: auto;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card_image{
+    width: 100%;
+    display: block;
+}
+
+.card_info{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:rgba(69, 44, 182, 0.333);
+    background: seashell;
+    font-size: 1em;
+    border-bottom: 1px solid darkgray;
+}
+.card_info i{
+    font-size: 2em;
+    margin:1px;
+}
+.card_link{
+    color: rgb(180, 178, 52);
+    text-decoration: none;
+    font-size: 20px;
+}
+f
+.card_link:hover{
+    text-decoration: underline;
+}
+.p{
+    font-size: larger;
+}
